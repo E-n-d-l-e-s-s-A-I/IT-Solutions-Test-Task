@@ -1,0 +1,22 @@
+{% with url=car.get_absolute_url%}
+<article class="car-card">
+  <header class="car-card__header">
+    <ul class="car-card__header-list">
+      <li class="car-card__header-item">
+        <h3 class="car-card__title">
+          <a href="{{ url }}" class="car-card__title-link link link--without-padding">
+            {{ car.name|truncatechars:20 }}
+          </a>
+        </h3>
+      </li>
+      <li class="car-card__header-item">
+        Год выпуска: {% if car.year %}{{ car.year }}{% else %}-{% endif %}
+      </li>
+    </ul>
+  </header>
+
+  <div class="card__body">
+    {% block body %}{% endblock %}
+  </div>
+</article>
+{% endwith %}

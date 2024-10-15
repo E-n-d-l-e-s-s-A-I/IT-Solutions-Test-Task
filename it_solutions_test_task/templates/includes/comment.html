@@ -1,0 +1,9 @@
+<article class="comment">
+    <h3 class="visually-hidden">Комментарий</h3>
+    <div class="comment__body">
+        <span class="comment__author">{{ comment.author.username }}</span>
+        <span class="comment__date">{{ comment.created_at|date:"F j, Y, H:i" }}</span>
+        <p class="comment__content">{{ comment.content }}</p>
+    </div>
+  </article>
+  

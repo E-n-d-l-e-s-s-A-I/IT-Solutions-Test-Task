@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Auto{% endblock %}
+
+{% block content %}
+  <section class='car-list-section'>
+    <h2 class='visually-hidden'>Cars list</h2>
+    {% for car in cars %}
+      {% include "includes/car_card.html" %}
+    {% endfor %}
+  </section>
+{% endblock %}

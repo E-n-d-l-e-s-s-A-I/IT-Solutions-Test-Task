@@ -1,0 +1,9 @@
+{% extends "includes/abstract_car_card.html" %}
+
+{% block body %}
+  <p>{{ car.description|truncatechars:60 }}</p>
+  <a class="link link--hover-accent link--without-padding" href="{{ car.get_absolute_url }}">Подробнее</a><br>
+  <a class="link link--hover-accent link--without-padding" href="{% url 'cars:car_edit' car.pk %}">Изменить</a><br>
+  <a class="link link--hover-accent link--without-padding" href="{% url 'cars:car_delete' car.pk %}">Удалить</a>
+  
+{% endblock %}

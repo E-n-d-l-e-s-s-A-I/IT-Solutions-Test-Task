@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section>
+    {% if next %}
+      {% if user.is_authenticated %}
+        <p>
+          У вашего аккаунта нет доступа к этой странице.
+          Чтобы продолжить, войдите в систему с аккаунтом,
+          у которого есть доступ.
+        </p>
+      {% else %}
+        <p>
+          Пожалуйста, войдите в систему,
+          чтобы просматривать эту страницу.
+        </p>
+      {% endif %}
+    {% endif %}
+    
+    <form method="post" class='form'>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="login">
+      <input type="hidden" name="next" value="{{ next }}">
+    </form>
+  </section>
+{% endblock %}

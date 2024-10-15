@@ -1,0 +1,53 @@
+<header class="header">
+  <h2 class="header__title">
+    <a href="{% url 'cars:index' %}" class="header__title link">Auto.ru</a>
+  </h2>
+  {% with request.resolver_match.view_name as view_name %}
+    <nav class="header__menu">
+      <ul class="header__menu">
+        <li class="header__menu-item header__menu-item">
+          <a href="{% url 'cars:homepage' %}" class="header__menu-link  link link--hover-accent
+          {% if view_name  == 'cars:index' or  view_name  == 'cars:homepage' %}header__menu-link--active{% endif %}">Список автомобилей</a>
+        </li>
+
+        <li class="header__menu-item">
+          <a href="{% url 'cars:car_add' %}" class="header__menu-link link link--hover-accent
+          {% if view_name  == 'cars:car_add' %}header__menu-link--active{% endif %}">Добавить автомобиль</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__user-menu">
+      {% if user.is_authenticated %}
+        <div class="header__user-info">
+          <div class="header__user-info-username">
+            <p>Пользователь: {{ user.username }}</p>
+          </div>
+        </div>
+      {% endif %}
+
+      <nav class="header__menu">
+        <ul class="header__menu">
+          {% if user.is_authenticated %}
+            <li class="header__menu-item">
+              <a href="{% url 'cars:my_cars' %}" class="header__menu-link link link--hover-accent
+              {% if view_name  == 'cars:my_cars' %}header__menu-link--active{% endif %}">Мои машины</a>
+            </li>
+            <li class="header__menu-item">
+              <a  href="{% url 'logout' %}" class="header__menu-link link link--hover-accent">Выйти</a>
+            </li>
+          {% else %}
+            <li class="header__menu-item">
+              <a href="{% url 'login' %}" class="header__menu-link link link--hover-accent
+              {% if view_name  == 'login' %}header__menu-link--active{% endif %}">Войти</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="{% url 'registration' %}" class="header__menu-link link link--hover-accent
+              {% if view_name  == 'registration' %}header__menu-link--active{% endif %}">Зарегистрироваться</a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+  {% endwith %}
+</header>

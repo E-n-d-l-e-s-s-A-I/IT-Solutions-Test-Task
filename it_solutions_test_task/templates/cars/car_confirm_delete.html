@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+  <h2>Вы уверены что хотите удалить "{{ car.name }}"?</h2>
+  
+  <form method="post">{% csrf_token %}
+    <input type="submit" value='Подтвердить'></input>
+  </form>
+</section>
+
+{% endblock content %}

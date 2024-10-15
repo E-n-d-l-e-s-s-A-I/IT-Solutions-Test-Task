@@ -1,0 +1,353 @@
+/* varriables */
+:root {
+  --color-light: #ffffff;
+  --color-dark: #1f1f1f;
+  --color-dark-alternate: #303134;
+  --color-accent: #00b956;
+  --color-light-gray: #C4C4C4;
+
+  --border-radius: 30px;
+  --border: 1px solid var(--color-dark-alternate);
+
+  --font-family-base: "Roboto", sans-serif;
+  --font-family-accent: "Yantramanav", sans-serif;
+
+  --input-height: 54px;
+
+  --container-width: 1300px;
+  --container-padding-x: 30px;
+  --sections-padding-y: 50px;
+
+  --transition-duration: 0.2s;
+
+  --header-padding-top: 70px;
+
+  --opacity: 0.6;
+}
+
+/* global styles */
+body {
+  background-color: var(--color-dark);
+  font-family: var(--font-family-base);
+  color: var(--color-light-gray);
+  font-weight: light;
+  font-size: 16px;
+  line-height: 1.75;
+
+  max-width: calc(var(--container-width) + var(--container-padding-x)*2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+  padding-bottom: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: var(--font-family-accent);
+  color: var(--color-accent);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+/* utils styles */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* link block */
+.link{
+  padding: 5px;
+}
+
+.link:hover{
+  color: var(--color-light-gray);
+}
+
+.link--hover-accent:hover{
+  color: var(--color-accent);
+}
+
+.link--without-padding{
+  padding: 0;
+}
+
+/* markup */
+
+/* header block */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  column-gap: 30px;
+
+  padding: 30px;
+  padding-top: var(--header-padding-top);
+  background-color: var(--color-dark-alternate);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+
+  font-family: var(--font-family-accent);
+  font-weight: 700;
+}
+
+.header__title{
+  font-size: 40px;
+}
+
+.header__menu{
+  display: flex;
+  column-gap: 10px;
+}
+
+.header__user-menu{
+  display: flex;
+  column-gap: 10px;
+}
+
+.header__menu-link{
+  position: relative;
+}
+
+.header__menu-link::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  translate: -50%;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition-duration: inherit;
+}
+
+.header__menu-link--active{
+  color: var(--color-accent);
+}
+
+.header__menu-link--active::after{
+  width: 90%;
+}
+
+.header__menu-link:hover::after{
+  width: 90%;
+}
+
+/* block main */
+.main{
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--sections-padding-y);
+
+  padding-top: var(--sections-padding-y);
+}
+
+/* block car-list-section*/
+.car-list-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* block car-card */
+.car-card{
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background: var(--color-dark-alternate);
+  padding: 30px;
+}
+
+.car-card__header-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.car-card__header:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.car-card__title{
+  color: var(--color-accent);
+  font-size: 20px;
+  font-family: var(--font-family-accent);
+  font-weight: 700;
+}
+
+/* block comments */
+.comments__list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.comments__header:not(:last-child){
+  margin-bottom: 30px;
+}
+
+/* block comment */
+.comment{
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background: var(--color-dark-alternate);
+  padding: 30px;
+}
+
+.comment__author{
+  color: var(--color-accent);
+  font-size: 20px;
+  font-family: var(--font-family-accent);
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+/* form */
+
+form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--color-dark-alternate);
+  border-radius: var(--border-radius);
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="file"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: var(--border);
+  border-radius: 4px;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="number"]:focus,
+form input[type="file"]:focus,
+form select:focus,
+form textarea:focus {
+  box-shadow: none; 
+  outline: 2px solid var(--color-accent);
+  background-color: var(--color-light);
+}
+
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form input[type="password"]:hover,
+form input[type="number"]:hover,
+form input[type="file"]:hover,
+form select:hover,
+form textarea:hover {
+  outline: 2px solid var(--color-accent);
+}
+
+form input[type="submit"],
+form input[type="button"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover {
+  opacity: var(--opacity);
+}
+
+.errorlist {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+/* media query for dekstop */
+@media(max-width: 1280px) {
+
+  /* header block */
+  .header__title{
+    display: none;
+  }
+}
+
+/* media query for tablet */
+@media(max-width: 1023px) {
+
+  /* header block */
+  .header{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+
+    padding-top: 50px;
+  }
+
+  /* block car-list-section*/
+  .car-list-section{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* media query for mobile */
+@media(max-width: 767px) {
+
+  /* header block */
+  .header{
+      padding-top: 20px;
+  }
+
+  .header__menu,
+  .header__user-menu
+  {
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+  }
+
+  /* block car-list-section*/
+  .car-list-section{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* media query for small mobile */
+@media(max-width: 480px) {
+
+}

@@ -1,0 +1,7 @@
+{% extends "includes/abstract_car_card.html" %}
+{% with url=car.get_absolute_url%}
+  {% block body %}
+    <p>{{ car.description|truncatechars:60 }}</p>
+    <a class="link link--hover-accent link--without-padding" href="{{ url }}">Подробнее</a>
+  {% endblock %}
+{% endwith %}

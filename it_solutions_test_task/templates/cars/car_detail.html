@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}{{ car.name|truncatechars:20 }}{% endblock %} 
+
+{% block content %}
+<section>
+  <h2 class='visually-hidden'>Детальная информация о автомобиле {{ car.name }}</h2>
+  <article class="car-card">
+    <header class="car-card__header">
+      <ul class="car-card__header-list">
+        <li class="car-card__header-item">
+          <h3 class="car-card__title">{{ car.name }}</h3>
+        </li>
+        <li class="car-card__header-item">
+          Год выпуска: {% if car.year %}{{ car.year }}{% else %}-{% endif %}
+        </li>
+        <li class="car-card__header-item">
+          Владелец: {{ car.owner.username }}
+        </li>
+      </ul>
+    </header>
+  
+    <div class="card__body">
+      <p>{{ car.description }}</p>
+    </div>
+  </article>
+</section>
+
+<section class="comments">
+  <header class="comments__header">
+    <h2 class="comments__tile">Комментарии:</h2>
+    {% if user.is_authenticated %}
+      <h3>Оставить комментарий</h3>
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit"></input>
+      </form>
+    {% else %}
+      <a class='link link--hover-accent link--without-padding' href="{% url 'login' %}?next={% url 'cars:car_detail' car.pk %}">Войдите чтобы оставить комментарий</a>
+    {% endif %}
+  </header>
+
+  <ul class="comments__list">
+    {% for comment in car.comments.all %}
+      <li class="comments-item">
+        {% include "includes/comment.html" %}
+      </li>
+    {% empty %}
+      <span3>Комментариев пока нет, но скоро обязательно появятся...</span3>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}

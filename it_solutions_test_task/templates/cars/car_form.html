@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+  {% block title %}
+    {% with request.resolver_match.view_name as view_name %}
+      {% if view_name  == 'cars:car_add' %} Добавление автомобиля{% endif %}
+      {% if view_name  == 'cars:car_edit' %} Редактирование автомобиля{% endif %}
+    {% endwith %}
+  {% endblock %}
+
+  {% block content %}
+    {% with request.resolver_match.view_name as view_name %}
+      <section>
+        <h2>
+          {% if view_name  == 'cars:car_add' %} Добавление автомобиля{% endif %}
+          {% if view_name  == 'cars:car_edit' %} Редактирование автомобиля{% endif %}
+        </h2>
+        <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <input type="submit"></input>
+        </form>
+      </section>
+    {% endwith %}
+  {% endblock %}
+
