@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cars.apps.CarsConfig',
     'debug_toolbar',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -144,3 +147,10 @@ LOGIN_URL = '/login/'
 
 
 LOGIN_REDIRECT_URL = 'cars:homepage'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+}

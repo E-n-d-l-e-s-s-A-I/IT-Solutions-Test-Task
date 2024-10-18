@@ -20,6 +20,7 @@ urlpatterns = [
         ),
         name='registration',
     ),
+    path('api/', include('cars.api.urls', namespace='api')),
 ]
 
 if settings.DEBUG:
