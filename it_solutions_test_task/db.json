@@ -1,0 +1,1053 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-10-14T03:58:08.322Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Car object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-10-14T04:05:51.073Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Car object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-10-14T04:48:18.235Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Комментарий id: 1 пользователя root",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-10-14T05:27:56.618Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Автомобиль Ford Mustang, id: 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-10-14T05:28:18.242Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Автомобиль Honda Civic, id: 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-10-14T05:29:27.120Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "andrew",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-10-14T05:29:56.180Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "anna",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-14T05:30:15.527Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "maksim",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-10-14T05:30:49.065Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Автомобиль Honda Civic, id: 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0410\\u0432\\u0442\\u043e\\u0440\"]}}, {\"added\": {\"name\": \"\\u041a\\u043e\\u043c\\u043c\\u0435\\u043d\\u0442\\u0430\\u0440\\u0438\\u0439\", \"object\": \"\\u041a\\u043e\\u043c\\u043c\\u0435\\u043d\\u0442\\u0430\\u0440\\u0438\\u0439 id: 2, \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f anna\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-10-14T11:33:15.978Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Автомобиль Lexus RX300, id: 4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-10-14T11:34:32.506Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Автомобиль Honda Freed, id: 5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-10-14T11:36:47.478Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Автомобиль Toyota Frontlander, id: 6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-10-14T11:37:18.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Автомобиль Лада 2108, id: 7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-10-14T11:37:52.552Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Автомобиль Лада Гранта, id: 8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-10-19T01:04:14.534Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Комментарий id: 22, пользователя max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-10-19T01:04:19.208Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Комментарий id: 23, пользователя root",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-10-19T01:04:23.356Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Комментарий id: 21, пользователя max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-10-19T01:04:27.368Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Комментарий id: 20, пользователя max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Автомобиль",
+    "content_type": 7,
+    "codename": "add_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Автомобиль",
+    "content_type": 7,
+    "codename": "change_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Автомобиль",
+    "content_type": 7,
+    "codename": "delete_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Автомобиль",
+    "content_type": 7,
+    "codename": "view_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Комментарий",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Комментарий",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Комментарий",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Комментарий",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 9,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 9,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 9,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 9,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 10,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 10,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 10,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 10,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$2fxAPIF7OVGMwkn15g0tCS$z5TTz9hUSIAUjAXxFDWNckSOVWgDDn1DU1EryJ3FVmU=",
+    "last_login": "2024-10-19T01:03:51.390Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-10-14T03:54:34.448Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$sLig3gkGCfrRfzh5OF2kpH$ugVbwLV1X1E4gdEwF0ssBsG+Efji4fuloADFC50GX84=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "andrew",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-14T05:29:26.812Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$99rPWBRsqD1LarSMXMKufk$FcujbCCwglzesdljRM2ImVIv1a18oYwqUr6TfMWok14=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "anna",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-14T05:29:55.880Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ZG2CetHjfvfJjIergxsz7l$ISCV3xEFZNVs4EOlM5pwt2EIuiN0udwl12q6dgYRz9k=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "maksim",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-14T05:30:15.228Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$GkM6GgO86mGgRsTcezYD4P$/Knou13/h/xmHXNyScTBSVdo/b1wuVvJPT4poWgbDD8=",
+    "last_login": "2024-10-15T08:24:15.399Z",
+    "is_superuser": false,
+    "username": "julia",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-14T15:33:55.068Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$rp7s0RcB58Wk8GwPYBa2AE$8CN09yscLogINf1RMvrrSU5H+Chu+ohxWyjOa0WW1ow=",
+    "last_login": "2024-10-19T00:56:32.754Z",
+    "is_superuser": false,
+    "username": "max",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-18T11:59:01.004Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "cars",
+    "model": "car"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "cars",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j9pc70iw5ygj1si6jcceyly0u7fiovnh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pBpZ6Dg0r1nIMMAUjVtUtqV8e7apAvd_vfef6nA21rD1vISxqTOqlOn3y2yPPK0g3Tn6TZrmad1GaPeFX3Qpq9zys_L4f4dVG71Wxe2CASGi82eyKHx0kMGK9B7GqKjAtGiH8QU4g4jICIk6oYkDqVX7w--uTbT:1t1xsl:sFAKPWIHiFmXnu2NuWnO-NdZZRwyTjYG6tdcV6VsXBY",
+    "expire_date": "2024-11-02T01:03:51.428Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tgsdm4cyql8vd9qdiuf5i098p27ha6fc",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBKBxCX7nsGMgyDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3ERRpx-t4j04LqDdMd6a5JaXZc5yl2RB-1yaomf18P9OyjYy7dGBMMYtTt7GEblk4KBICYyKrI36F3WjNaAHXNWlDVQcp49uUzWaRTvD-8oOGw:1t0avk:RS3UrxeNTOOpQGbUW3cmMXu3cM5MZdxE6lyW26iHe_c",
+    "expire_date": "2024-10-29T06:21:16.365Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-10-14T05:27:56.615Z",
+    "make": "Ford",
+    "model": "Mustang",
+    "year": null,
+    "description": "Спортивный автомобиль",
+    "updated_at": "2024-10-15T15:12:52.448Z",
+    "owner": 1
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-10-14T05:28:18.240Z",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "description": "Надежный и экономичный седан, идеален для городской эксплуатации.",
+    "updated_at": "2024-10-14T05:30:49.063Z",
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 4,
+  "fields": {
+    "created_at": "2024-10-14T11:33:15.976Z",
+    "make": "Lexus",
+    "model": "RX300",
+    "year": 2021,
+    "description": "Характеристики совпадают с ПТС\r\n2 записи о регистрации",
+    "updated_at": "2024-10-14T11:33:15.976Z",
+    "owner": 4
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 5,
+  "fields": {
+    "created_at": "2024-10-14T11:34:32.504Z",
+    "make": "Honda",
+    "model": "Freed",
+    "year": 2012,
+    "description": "Решил написать свой рассказ об японческом автопроме. В общем знакомство с япошками началось с тоёты короны. Которую привезли моему другану под заказ аж в 2001 году. Потом было много разных машинок, которые покупали мои друзья. На которых естественно катался и я. У меня же первой собственной машиной была легендарная Нива. Которую я купил в сопли убитую, и не на ходу в 2002 году.",
+    "updated_at": "2024-10-14T11:34:32.504Z",
+    "owner": 2
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 6,
+  "fields": {
+    "created_at": "2024-10-14T11:36:47.476Z",
+    "make": "Toyota",
+    "model": "Frontlander",
+    "year": 2024,
+    "description": "После ковида вернулся домой в 2022 году (живу в Гуанчжоу, прям почти на границе с Гонконгом😁), и через 2 года возникла необходимость поменять свою старую 14-ти летнюю Короллу на что-то новое, так как ещё пополнение в семье и ребёнку нужно более безопасное авто. Выбирали из FAW и GAC-Toyota, но так как возле нашего дома в 2 км есть только салон последнего, то туда и поехали.",
+    "updated_at": "2024-10-14T11:36:47.477Z",
+    "owner": 1
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 7,
+  "fields": {
+    "created_at": "2024-10-14T11:37:18.415Z",
+    "make": "Лада",
+    "model": "2108",
+    "year": 1990,
+    "description": "Приобрёл данный экземпляр случайно. Просто повернулась. Изначально хотел свою копейку поменять на 2ку или 3ку и тут кабриолет! Ещё и канадская версия с задом от 21099.\r\nПокупал в другом городе и всю дорогу, а это 750км, проехал на одном баке!!!",
+    "updated_at": "2024-10-14T11:37:18.415Z",
+    "owner": 4
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 8,
+  "fields": {
+    "created_at": "2024-10-14T11:37:52.551Z",
+    "make": "Лада",
+    "model": "Гранта",
+    "year": 2024,
+    "description": "Новый автомобиль от официального дилера \"ВОСТОК ЛАДА\" г. Владивосток!\r\nАвтомобиль вы можете приобрести:\r\nВ КРЕДИТ (Даже без первоначального взноса!);",
+    "updated_at": "2024-10-14T11:37:52.551Z",
+    "owner": 1
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 9,
+  "fields": {
+    "created_at": "2024-10-15T06:05:37.914Z",
+    "make": "Kia",
+    "model": "K3",
+    "year": 2023,
+    "description": "Компания «BLACK AUTO» | Автомобили под заказ с аукционов Японии, Кореи и Китая\r\nЦены автомобилей, уточняйте у менеджеров\r\nДоставка по РФ в любой регион\r\n\r\nПреимущества покупки Японских, Корейских и Китайских автомобилей через нашу компанию:\r\n- Соблюдение всех условий договора\r\n- Гарантия цены\r\n- Честный пробег\r\n- Индивидуальный подход к каждому клиенту\r\n- Гарантия обязательного прохождения полного ТО",
+    "updated_at": "2024-10-15T06:05:37.921Z",
+    "owner": 1
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 10,
+  "fields": {
+    "created_at": "2024-10-15T06:22:11.101Z",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2022,
+    "description": "Работаем для вас уже 9 лет.\r\nНа сегодняшний день, мы осчастливили уже более 1500 автолюбителей со всего СНГ.\r\nРаботаем напрямую с аукционами Японии, Кореи, Китая.\r\nТолько у нас, вам будет предоставлен личный специалист, который не только подберет вам подходящий автомобиль, но и совместно с другими сотрудниками переведут на русский язык аукционный лист, чтобы проверить реальную историю повреждений автомобиля.\r\nМы всегда открыты с вами. Ведь наша работа - это подобрать вам Безопасный автомобиль, который будет служить вам очень долгое время.",
+    "updated_at": "2024-10-15T08:17:49.135Z",
+    "owner": 5
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-10-14T05:30:49.064Z",
+    "content": "оказалась ненадежной",
+    "car": 3,
+    "author": 3
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 7,
+  "fields": {
+    "created_at": "2024-10-15T07:36:51.220Z",
+    "content": "отличная машина",
+    "car": 2,
+    "author": 5
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 8,
+  "fields": {
+    "created_at": "2024-10-15T07:37:17.886Z",
+    "content": "нас с мужем устраивает",
+    "car": 2,
+    "author": 5
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 9,
+  "fields": {
+    "created_at": "2024-10-15T07:38:17.553Z",
+    "content": "это моя машина, и я тоже могу оставлять к ней комментарии",
+    "car": 10,
+    "author": 5
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 10,
+  "fields": {
+    "created_at": "2024-10-15T07:40:59.776Z",
+    "content": "Отличный выбор автомобилей! Я нашел именно то, что искал.",
+    "car": 3,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 13,
+  "fields": {
+    "created_at": "2024-10-15T11:21:03.438Z",
+    "content": "стоит своих денег",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 14,
+  "fields": {
+    "created_at": "2024-10-15T11:21:17.916Z",
+    "content": "отличное качество",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 15,
+  "fields": {
+    "created_at": "2024-10-15T11:23:14.756Z",
+    "content": "статусный автомобиль",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 16,
+  "fields": {
+    "created_at": "2024-10-15T11:23:26.643Z",
+    "content": "подойдет всем",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 17,
+  "fields": {
+    "created_at": "2024-10-15T11:23:35.049Z",
+    "content": "обожаю его",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 18,
+  "fields": {
+    "created_at": "2024-10-16T03:22:03.984Z",
+    "content": "хороший автомобиль",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "cars.comment",
+  "pk": 19,
+  "fields": {
+    "created_at": "2024-10-16T03:23:11.906Z",
+    "content": "лучшее качество",
+    "car": 2,
+    "author": 1
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "086569c7d3572aa14ba9d34b0e03b9cf373dd59a",
+  "fields": {
+    "user": 1,
+    "created": "2024-10-18T12:02:05.546Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "60c63b9169e8b4a1589d2a8fc4d15cc7b575661e",
+  "fields": {
+    "user": 6,
+    "created": "2024-10-18T12:02:11.097Z"
+  }
+}
+]
